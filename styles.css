@@ -1,0 +1,64 @@
+body {
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #e8d174;
+    background-position: right 50px;
+}
+
+img {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+.welcomePage {
+  width: 450px;
+  height: 250px;
+  background-color: #9ed670;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  border-color: #4d7358;
+  border-width: thick;
+  border-style: solid;
+  color: #666666;
+}
+
+.dylan1 {
+  border-radius:50%;
+  size:both;
+  width:40%;
+  float:right;
+  border-width: medium;
+  border-color: #4d7358;
+  border-style: solid;
+  margin-right: 65px;
+}
+
+img.shmoogs1 {
+  size: both;
+  width: 15%;
+  height: auto;
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+}
+
+img.shmoogs1:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+img.frank2 {
+  size: both;
+  width: 15%;
+  height: auto;
+  position: absolute;
+  bottom: 15px;
+  left: 250px;
+}
+
+img.frank2:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
